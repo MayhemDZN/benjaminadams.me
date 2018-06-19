@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-color: whitesmoke;
+}
+
+header {
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	background-color: white;
+	top: 0px;
+    left: 0px;
+    width: 100vw;
+    padding: 20px;
+    border-top: 6px solid #00539b;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+h1 {
+	font-size: 24pt;
+}
+
+h4{
+	font-size: 24pt;
+}
+
+.home:visited, .home:link {
+	color: white;
+}
+
+.home:hover {
+	opacity: 0.98;
+	color: white;
+    background: rgba(0,83,155, 0.8);
+    transition: 0.4s ease-in-out;
+}
+
+.home, .nav, .footer, .blog {
+	text-decoration: none;
+}
+
+.nav {
+	font-size: 16pt;
+    font-weight: bolder;
+	margin: 0pt 9pt;
+}
+
+.nav:visited, .nav:link {
+	color: black;
+}
+
+.nav:hover, .nav.active {
+	color: rgba(0,83,155, 0.8);
+    transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.blog {
+	font-size: 16pt;
+    font-weight: bolder;
+	margin: 0pt 9pt;
+}
+
+.blog:visited, .blog:link {
+	color: black;
+}
+
+.blog:hover, .blog.active {
+	color: rgba(0,83,155, 0.8);
+    transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+body article {
+	display: block;
+	width: 45vw;
+	margin: 130pt auto;
+	font-size: 14pt;
+	line-height: 18pt;
+	font-family: Helvetica, sans-serif;
+}
+
+header .home { 
+    font-size: 16pt;
+	font-weight: bolder;
+	line-height: 1.2pt;
+	color: white;
+    background: rgba(0,83,155, 1);
+    padding: 20px;
+    border-radius: 0%;
+}
+
+.aboutme, .links {
+    line-height: 21pt;
+}
+
+
+
